@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tool Box</title>
+</head>
+<body>
+    <div class="div_cubagem">
+
+        <div class="cubagemContent">
+            <label>Código: <input type="text" name="codProd" class="inputCub" id="ref_cubage" placeholder="Código do produto"></label>
+            <label>Comprimento: <input type="number" name="inputComp" class="inputCub mainmed" id="compCubagem" placeholder="Comprimento"></label>
+            <label>Largura: <input type="number" name="inputLarg" class="inputCub mainmed" id="largCubagem" placeholder="Largura"></label>
+            <label>Altura: <input type="number" name="inputAlt" class="inputCub mainmed" id="altCubagem" placeholder="Altura"></label>
+        </div>
+        <div class="cubagemContent">
+            <label>QNTD Pedido: <input type="number" name="qntPed" class="inputCub" id="qntd_pTotal" placeholder="Pedido total"></label>
+            <label>QNTD CAX: <input type="number" name="qntPed" class="inputCub" id="qntd_pCax" placeholder="Peças por caixa"></label>
+            <label class="radiosCube">cm<input type="radio" name="checkCubag" class="radiocub" id="cubagemCheckCm"></label>
+            <label class="radiosCube">mm<input type="radio" name="checkCubag" class="radiocub" id="cubagemCheckMm" checked></label>
+        </div>
+
+
+        <button id="buttonCubagem" onclick="cubagem()">Calcular</button>
+
+        <ul id="listCubagem"><img src="img/logo lim 2023 oficial.png">
+            <li id="titleResults">
+                <p class="ptitleR">Código:</p>
+                <p class="ptitleR">Cubagem:</p>
+                <p class="ptitleR">Total de Caixas(M³):</p>
+                <p class="ptitleR">Total(M³):</p>
+            </li>
+        </ul>
+
+        </div>
+    </div>
+
+    <div id="total_Mcub">
+        <h3>CUBAGEM TOTAL (M³):</h3> <p id="totalM3div">-----</p>
+    </div>
+</body>
+</html>
+<script src="toolbox_script.js"></script>

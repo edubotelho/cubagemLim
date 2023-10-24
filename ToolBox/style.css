@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    width: 98.7vw;
+    height: 47.69vw;
+    background-color: #d9ecd9;
+}
+
+.div_cubagem{
+    background-color: #fafafa;
+    border-radius: 25px;
+    box-shadow: .1px .1px 15px #3a3a3a81;
+    padding: 9px 15px 15px 15px;
+    width: 900px;
+    height: 480px;
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+}
+
+.inputCub::placeholder{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    font-size: 8.5px;
+    font-weight: bolder;
+    color: #58585857;
+    padding: 0 0 0 0%;
+}
+
+.inputCub{
+    width: 120px;
+    text-transform: uppercase;
+    padding: 2.5px 2px;
+    border-radius: 4px;
+    border: .1px solid #80808091;
+}
+
+.inputCub:focus{
+   outline: .1px solid #79797991;
+   
+}
+
+.codAdd{
+    text-transform: uppercase;
+}
+
+.mainmed{
+    width: 98px;
+}
+
+.cubagemContent{
+    margin: 10px 2.5% 0 2.5%;
+    height: 22px;
+}
+
+.cubagemContent>label{
+    padding: 0px 10px 0px 10px;   
+}
+
+#listCubagem{
+
+    list-style: none;
+    text-align: center;
+    height: 68%;
+    width: 97%;
+    background-color: #ffffff;
+    
+    box-shadow: inset .1px .1px 8px #6b6b6b85;
+    border-radius: 15px;
+
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%,-50%);
+    overflow-y: auto;
+}
+
+#listCubagem>img{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 449px;
+    opacity: 15%;
+    
+}
+
+#listCubagem>li{
+    width: 80%;
+    margin: 2% 10% 0 10%;
+    padding: 0 0 1% 0;
+    border-bottom: .1px solid #9c9c9c91;
+    font-size: 20px;
+}
+
+#total_Mcub{
+    width: 500px;
+    height: 75px;
+    background-color: #ffffff;
+
+    position: absolute;
+    left: 50%;
+    top: 89%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 25px;
+    font-size: 20px;
+
+    display: flex;
+    align-items:center;
+    align-content: center;
+    padding-left: 4%;
+    
+    box-shadow: .1px .1px 10px #6b6b6b85;
+}
+
+#totalM3div{
+    margin-left: 2%;
+    font-size: 28px;
+    font-weight: bold;
+    color: #62f87b;
+    -webkit-text-stroke: 1.3px #666666e8;
+
+}
+
+.radiocub{
+    cursor: pointer;
+    margin: 4px 0 0 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 17px; /* Ajuste o tamanho do radio button conforme necessário */
+    height: 17px;
+    border: .5px solid #666666e8; /* Cor da borda do radio button não selecionado */
+    border-radius: 50%; /
+}
+
+.radiocub:checked{
+    background-color: #9bffab; /* Cor de fundo quando selecionado */
+    border: .5px solid #666666e8;
+}
+
+.radiosCube{
+    padding: 0 15px 0 5px;
+    text-transform: uppercase;
+}
+
+#buttonCubagem{
+    transition: .5s;
+    font-size: 20px;
+    font-weight: bold;
+    width: 138px;
+    height: 30px;
+    border-radius: 8px;
+    border: .5px solid #7a7a7a7a;
+    cursor: pointer;
+
+    position: absolute;
+    left: 50%;
+    top: 23%;
+    transform: translate(-50%,-50%);
+
+    background-color: #ffffff;
+    box-shadow: .1px .1px 4px #7777778e;
+    color: #777777d3;
+}
+
+#buttonCubagem:hover{
+    background-color: #e2e2e2a9;
+    color: #4d4d4d;
+    transition: .5s;
+}
+
+ /*------------------------------------*/
+
+#titleResults{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ptitleR{
+    text-align: center;
+    width: 175px;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+.ptitleR:not(:first-child){
+    border-left:.1px solid #777777a2;
+}
+
+.liCubagemAdd{
+    display: flex;
+}
+
+
+/*---------------*/
